@@ -1,0 +1,23 @@
+{
+  "name": "pomonize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/main.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/canvasjs": "^1.9.6",
+    "canvas": "^2.6.1",
+    "obniz": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.24",
+    "typescript": "^3.9.7"
+  }
+}

@@ -1,0 +1,39 @@
+{
+    /* Commons */
+    "files.insertFinalNewline": false,
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.codeLens": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    // US keyboardでショートカットが正しく入力できるようにする
+    "keyboard.dispatch": "keyCode",
+
+    /* Python */
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.mypyEnabled": true,
+    "python.autoComplete.addBrackets": true,
+    "python.formatting.provider": "black",
+    "python.testing.pytestArgs": [
+        "tests"　
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.languageServer": "Microsoft",
+    "python.jediEnabled": false,
+    "autoDocstring.docstringFormat": "google",
+
+    /* livesass */
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [{
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/src/static/"
+    }],
+
+}
